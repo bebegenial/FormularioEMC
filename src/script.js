@@ -81,14 +81,6 @@ var $cedula5 = document.querySelector("#cedula5");
 var $cedula6 = document.querySelector("#cedula6");
 let $inputs = document.querySelector(".inputs");
 const formulario = document.getElementById(".formulario");
-$cedula1.addEventListener('input', (event) => {
-    $cedula3.value = event.target.value;
-    $cedula5.value = event.target.value;
-});
-$cedula2.addEventListener('input', (event) => {
-    $cedula4.value = event.target.value;
-    $cedula6.value = event.target.value;
-});
 
 var $detColec = document.getElementById('detColec');
 var $detValor = document.getElementById('detValor');
@@ -206,25 +198,6 @@ async function resaltarCampos() {
         $colaborador.style.background = "transparent";
     }
 }
-
-$imgcedula1.addEventListener('change', () => {
-    let imgfile1 = $imgcedula1.files[0];
-    let imgfileURL1 = URL.createObjectURL(imgfile1);
-    document.querySelector("#visual1").setAttribute('src', imgfileURL1);
-})
-
-$imgcedula2.addEventListener('change', () => {
-    let imgfile2 = $imgcedula2.files[0];
-    let imgfileURL2 = URL.createObjectURL(imgfile2);
-    document.querySelector("#visual2").setAttribute('src', imgfileURL2);
-})
-
-$imgpago.addEventListener('change', () => {
-    let pago = $imgpago.files[0];
-    let pagoURL2 = URL.createObjectURL(pago);
-    document.querySelector("#pago1").setAttribute('src', pagoURL2);
-})
-
 
 // Mostrar el modal al hacer clic en el botón "Guardar"
 $botonGuardar.addEventListener('click', function () {
