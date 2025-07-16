@@ -71,14 +71,14 @@ var $colaborador = document.querySelector("#especialista");
 var $director = document.querySelector("#director");
 var $organizador = document.querySelector("#telCliente");
 
-var $cedula2 = document.querySelector("#cedula2");
+/*var $cedula2 = document.querySelector("#cedula2");
 var $cc2 = document.querySelector("#cc2");
-var $ce2 = document.querySelector("#ce2");
+var $ce2 = document.querySelector("#ce2");*/
 
 var $cedula3 = document.querySelector("#cedula3");
-var $cedula4 = document.querySelector("#cedula4");
+/*var $cedula4 = document.querySelector("#cedula4");*/
 var $cedula5 = document.querySelector("#cedula5");
-var $cedula6 = document.querySelector("#cedula6");
+/*var $cedula6 = document.querySelector("#cedula6");*/
 let $inputs = document.querySelector(".inputs");
 const formulario = document.getElementById(".formulario");
 
@@ -94,6 +94,10 @@ var $observ = document.getElementById('observ');
 var $imgcedula2 = document.querySelector("#imgfile2");
 var $imgpago = document.querySelector("#pagofile");*/
 
+/* Llenando automaticamente los pagares al momento de colocar el numero de cedula*/
+$cedula3.addEventListener('input', function() {
+  $cedula5.value = $cedula3.value;
+});
 
 async function guardarPdf() {
 
