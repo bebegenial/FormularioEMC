@@ -418,11 +418,11 @@ async function nuevoPedido() {
                 $colaborador.value,
                 $director.value,
                 $organizador.value,
-                $cedula2.value,
+                /*$cedula2.value,*/
                 $cc2.value,
                 $ce2.value,
                 $cedula3.value,
-                $cedula4.value,
+                /*$cedula4.value,*/
                 $detColec.value,
                 $detValor.value,
                 $totalVal.value,
