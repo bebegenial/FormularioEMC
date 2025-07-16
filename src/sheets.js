@@ -166,11 +166,11 @@ async function editPedidos() {
             $colaborador.value,
             $director.value,
             $organizador.value,
-            $cedula2.value,
+            /*$cedula2.value,
             $cc2.value,
-            $ce2.value,
+            $ce2.value,*/
             $cedula3.value,
-            $cedula4.value,
+            /*$cedula4.value,*/
             $detColec.value,
             $detValor.value,
             $totalVal.value,
@@ -259,11 +259,11 @@ async function buscarPedido() {
         $colaborador.value = pedidoEncontrado.colaborador;
         $director.value = pedidoEncontrado.director;
         $organizador.value = pedidoEncontrado.organizador;
-        $cedula2.value = pedidoEncontrado.cedula2;
+        /*.value = pedidoEncontrado.cedula2;
         $cc2.value = pedidoEncontrado.cc2;
-        $ce2.value = pedidoEncontrado.ce2;
+        $ce2.value = pedidoEncontrado.ce2;*/
         $cedula3.value = pedidoEncontrado.cedula3;
-        $cedula4.value = pedidoEncontrado.cedula4;
+        /*$cedula4.value = pedidoEncontrado.cedula4;*/
         $detColec.value = pedidoEncontrado.detColec;
         $detValor.value = pedidoEncontrado.detValor;
         $totalVal.value = pedidoEncontrado.totalVal;
@@ -337,11 +337,11 @@ async function buscarPedido() {
         $colaborador.value = pedidoEncontrado.colaborador;
         $director.value = pedidoEncontrado.director;
         $organizador.value = pedidoEncontrado.organizador;
-        $cedula2.value = pedidoEncontrado.cedula2;
+        /*$cedula2.value = pedidoEncontrado.cedula2;
         $cc2.value = pedidoEncontrado.cc2;
-        $ce2.value = pedidoEncontrado.ce2;
+        $ce2.value = pedidoEncontrado.ce2;*/
         $cedula3.value = pedidoEncontrado.cedula3;
-        $cedula4.value = pedidoEncontrado.cedula4;
+        /*$cedula4.value = pedidoEncontrado.cedula4;*/
         $detColec.value = pedidoEncontrado.detColec;
         $detValor.value = pedidoEncontrado.detValor;
         $totalVal.value = pedidoEncontrado.totalVal;
@@ -418,9 +418,9 @@ async function nuevoPedido() {
                 $colaborador.value,
                 $director.value,
                 $organizador.value,
-                /*$cedula2.value,*/
-                $cc2.value,
-                $ce2.value,
+                /*$cedula2.value,
+                /*$cc2.value,
+                $ce2.value,*/
                 $cedula3.value,
                 /*$cedula4.value,*/
                 $detColec.value,
